@@ -8,7 +8,7 @@
 import XCTest
 @testable import budget_management_system_mac
 
-class budget_management_system_macTests: XCTestCase {
+class BudgetManagementSystemApplicationTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
