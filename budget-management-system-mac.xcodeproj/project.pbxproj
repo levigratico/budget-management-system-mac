@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A14BD98279D8BFB00239F43 /* BudgetManagementSystemApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A14BD97279D8BFB00239F43 /* BudgetManagementSystemApplication.swift */; };
+		3A14BD9A279D8BFB00239F43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A14BD99279D8BFB00239F43 /* ContentView.swift */; };
+		3A14BD9C279D8BFF00239F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A14BD9B279D8BFF00239F43 /* Assets.xcassets */; };
+		3A14BD9F279D8BFF00239F43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A14BD9E279D8BFF00239F43 /* Preview Assets.xcassets */; };
+		3A14BDAB279D8BFF00239F43 /* BudgetManagementSystemApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A14BDAA279D8BFF00239F43 /* BudgetManagementSystemApplicationTests.swift */; };
+		3A14BDB6279D8BFF00239F43 /* BudgetManagementSystemApplicationTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A14BDB5279D8BFF00239F43 /* BudgetManagementSystemApplicationTestsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A14BDA7279D8BFF00239F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A14BD8C279D8BFB00239F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A14BD93279D8BFB00239F43;
+			remoteInfo = "budget-management-system-mac";
+		};
+		3A14BDB2279D8BFF00239F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A14BD8C279D8BFB00239F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A14BD93279D8BFB00239F43;
+			remoteInfo = "budget-management-system-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A14BD94279D8BFB00239F43 /* budget-management-system-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "budget-management-system-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A14BD97279D8BFB00239F43 /* BudgetManagementSystemApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetManagementSystemApplication.swift; sourceTree = "<group>"; };
+		3A14BD99279D8BFB00239F43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A14BD9B279D8BFF00239F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A14BD9E279D8BFF00239F43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A14BDA0279D8BFF00239F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A14BDA1279D8BFF00239F43 /* BudgetManagementSystem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BudgetManagementSystem.entitlements; sourceTree = "<group>"; };
+		3A14BDA6279D8BFF00239F43 /* budget-management-system-macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "budget-management-system-macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A14BDAA279D8BFF00239F43 /* BudgetManagementSystemApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetManagementSystemApplicationTests.swift; sourceTree = "<group>"; };
+		3A14BDAC279D8BFF00239F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A14BDB1279D8BFF00239F43 /* budget-management-system-macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "budget-management-system-macUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A14BDB5279D8BFF00239F43 /* BudgetManagementSystemApplicationTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetManagementSystemApplicationTestsUITests.swift; sourceTree = "<group>"; };
+		3A14BDB7279D8BFF00239F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A14BD91279D8BFB00239F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A14BDA3279D8BFF00239F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A14BDAE279D8BFF00239F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A14BD8B279D8BFB00239F43 = {
+			isa = PBXGroup;
+			children = (
+				3A14BD96279D8BFB00239F43 /* budget-management-system-mac */,
+				3A14BDA9279D8BFF00239F43 /* budget-management-system-macTests */,
+				3A14BDB4279D8BFF00239F43 /* budget-management-system-macUITests */,
+				3A14BD95279D8BFB00239F43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A14BD95279D8BFB00239F43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A14BD94279D8BFB00239F43 /* budget-management-system-mac.app */,
+				3A14BDA6279D8BFF00239F43 /* budget-management-system-macTests.xctest */,
+				3A14BDB1279D8BFF00239F43 /* budget-management-system-macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A14BD96279D8BFB00239F43 /* budget-management-system-mac */ = {
+			isa = PBXGroup;
+			children = (
+				3A45A04F27AA2ADF00E178DC /* Resources */,
+				3A45A04C27AA2A6100E178DC /* Interactors */,
+				3A45A04B27AA2A1C00E178DC /* Repositories */,
+				3A45A04A27AA29EE00E178DC /* Models */,
+				3A45A04927AA29D400E178DC /* Utilities */,
+				3A45A04827AA296C00E178DC /* Injected */,
+				3A45A04727AA294700E178DC /* View */,
+				3A14BD97279D8BFB00239F43 /* BudgetManagementSystemApplication.swift */,
+			);
+			path = "budget-management-system-mac";
+			sourceTree = "<group>";
+		};
+		3A14BDA9279D8BFF00239F43 /* budget-management-system-macTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A14BDAA279D8BFF00239F43 /* BudgetManagementSystemApplicationTests.swift */,
+				3A14BDAC279D8BFF00239F43 /* Info.plist */,
+			);
+			path = "budget-management-system-macTests";
+			sourceTree = "<group>";
+		};
+		3A14BDB4279D8BFF00239F43 /* budget-management-system-macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A14BDB5279D8BFF00239F43 /* BudgetManagementSystemApplicationTestsUITests.swift */,
+				3A14BDB7279D8BFF00239F43 /* Info.plist */,
+			);
+			path = "budget-management-system-macUITests";
+			sourceTree = "<group>";
+		};
+		3A45A04727AA294700E178DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A45A04E27AA2ABB00E178DC /* Components */,
+				3A45A04D27AA2AB300E178DC /* Screens */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A45A04827AA296C00E178DC /* Injected */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Injected;
+			sourceTree = "<group>";
+		};
+		3A45A04927AA29D400E178DC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3A45A04A27AA29EE00E178DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A45A04B27AA2A1C00E178DC /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3A45A04C27AA2A6100E178DC /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		3A45A04D27AA2AB300E178DC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3A14BD99279D8BFB00239F43 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3A45A04E27AA2ABB00E178DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3A45A04F27AA2ADF00E178DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A14BDA1279D8BFF00239F43 /* BudgetManagementSystem.entitlements */,
+				3A14BDA0279D8BFF00239F43 /* Info.plist */,
+				3A14BD9B279D8BFF00239F43 /* Assets.xcassets */,
+				3A14BD9E279D8BFF00239F43 /* Preview Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A14BD93279D8BFB00239F43 /* budget-management-system-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A14BDBA279D8BFF00239F43 /* Build configuration list for PBXNativeTarget "budget-management-system-mac" */;
+			buildPhases = (
+				3A14BD90279D8BFB00239F43 /* Sources */,
+				3A14BD91279D8BFB00239F43 /* Frameworks */,
+				3A14BD92279D8BFB00239F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "budget-management-system-mac";
+			productName = "budget-management-system-mac";
+			productReference = 3A14BD94279D8BFB00239F43 /* budget-management-system-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A14BDA5279D8BFF00239F43 /* budget-management-system-macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A14BDBD279D8BFF00239F43 /* Build configuration list for PBXNativeTarget "budget-management-system-macTests" */;
+			buildPhases = (
+				3A14BDA2279D8BFF00239F43 /* Sources */,
+				3A14BDA3279D8BFF00239F43 /* Frameworks */,
+				3A14BDA4279D8BFF00239F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A14BDA8279D8BFF00239F43 /* PBXTargetDependency */,
+			);
+			name = "budget-management-system-macTests";
+			productName = "budget-management-system-macTests";
+			productReference = 3A14BDA6279D8BFF00239F43 /* budget-management-system-macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A14BDB0279D8BFF00239F43 /* budget-management-system-macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A14BDC0279D8BFF00239F43 /* Build configuration list for PBXNativeTarget "budget-management-system-macUITests" */;
+			buildPhases = (
+				3A14BDAD279D8BFF00239F43 /* Sources */,
+				3A14BDAE279D8BFF00239F43 /* Frameworks */,
+				3A14BDAF279D8BFF00239F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A14BDB3279D8BFF00239F43 /* PBXTargetDependency */,
+			);
+			name = "budget-management-system-macUITests";
+			productName = "budget-management-system-macUITests";
+			productReference = 3A14BDB1279D8BFF00239F43 /* budget-management-system-macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A14BD8C279D8BFB00239F43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3A14BD93279D8BFB00239F43 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3A14BDA5279D8BFF00239F43 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3A14BD93279D8BFB00239F43;
+					};
+					3A14BDB0279D8BFF00239F43 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3A14BD93279D8BFB00239F43;
+					};
+				};
+			};
+			buildConfigurationList = 3A14BD8F279D8BFB00239F43 /* Build configuration list for PBXProject "budget-management-system-mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A14BD8B279D8BFB00239F43;
+			productRefGroup = 3A14BD95279D8BFB00239F43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A14BD93279D8BFB00239F43 /* budget-management-system-mac */,
+				3A14BDA5279D8BFF00239F43 /* budget-management-system-macTests */,
+				3A14BDB0279D8BFF00239F43 /* budget-management-system-macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A14BD92279D8BFB00239F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A14BD9F279D8BFF00239F43 /* Preview Assets.xcassets in Resources */,
+				3A14BD9C279D8BFF00239F43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A14BDA4279D8BFF00239F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A14BDAF279D8BFF00239F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A14BD90279D8BFB00239F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A14BD9A279D8BFB00239F43 /* ContentView.swift in Sources */,
+				3A14BD98279D8BFB00239F43 /* BudgetManagementSystemApplication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A14BDA2279D8BFF00239F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A14BDAB279D8BFF00239F43 /* BudgetManagementSystemApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A14BDAD279D8BFF00239F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A14BDB6279D8BFF00239F43 /* BudgetManagementSystemApplicationTestsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A14BDA8279D8BFF00239F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A14BD93279D8BFB00239F43 /* budget-management-system-mac */;
+			targetProxy = 3A14BDA7279D8BFF00239F43 /* PBXContainerItemProxy */;
+		};
+		3A14BDB3279D8BFF00239F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A14BD93279D8BFB00239F43 /* budget-management-system-mac */;
+			targetProxy = 3A14BDB2279D8BFF00239F43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A14BDB8279D8BFF00239F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A14BDB9279D8BFF00239F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3A14BDBB279D8BFF00239F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "budget-management-system-mac/Resources/budget_management_system_mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "budget-management-system-mac/Resources";
+				DEVELOPMENT_TEAM = WCQ93J436N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "budget-management-system-mac/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gratico.projects.budget-management-system-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3A14BDBC279D8BFF00239F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "budget-management-system-mac/Resources/budget_management_system_mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "budget-management-system-mac/Resources";
+				DEVELOPMENT_TEAM = WCQ93J436N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "budget-management-system-mac/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gratico.projects.budget-management-system-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3A14BDBE279D8BFF00239F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WCQ93J436N;
+				INFOPLIST_FILE = "budget-management-system-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gratico.projects.budget-management-system-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/budget-management-system-mac.app/Contents/MacOS/budget-management-system-mac";
+			};
+			name = Debug;
+		};
+		3A14BDBF279D8BFF00239F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WCQ93J436N;
+				INFOPLIST_FILE = "budget-management-system-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gratico.projects.budget-management-system-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/budget-management-system-mac.app/Contents/MacOS/budget-management-system-mac";
+			};
+			name = Release;
+		};
+		3A14BDC1279D8BFF00239F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WCQ93J436N;
+				INFOPLIST_FILE = "budget-management-system-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gratico.projects.budget-management-system-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "budget-management-system-mac";
+			};
+			name = Debug;
+		};
+		3A14BDC2279D8BFF00239F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WCQ93J436N;
+				INFOPLIST_FILE = "budget-management-system-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gratico.projects.budget-management-system-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "budget-management-system-mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A14BD8F279D8BFB00239F43 /* Build configuration list for PBXProject "budget-management-system-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A14BDB8279D8BFF00239F43 /* Debug */,
+				3A14BDB9279D8BFF00239F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A14BDBA279D8BFF00239F43 /* Build configuration list for PBXNativeTarget "budget-management-system-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A14BDBB279D8BFF00239F43 /* Debug */,
+				3A14BDBC279D8BFF00239F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A14BDBD279D8BFF00239F43 /* Build configuration list for PBXNativeTarget "budget-management-system-macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A14BDBE279D8BFF00239F43 /* Debug */,
+				3A14BDBF279D8BFF00239F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A14BDC0279D8BFF00239F43 /* Build configuration list for PBXNativeTarget "budget-management-system-macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A14BDC1279D8BFF00239F43 /* Debug */,
+				3A14BDC2279D8BFF00239F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A14BD8C279D8BFB00239F43 /* Project object */;
+}
